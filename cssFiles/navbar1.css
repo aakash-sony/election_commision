@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-nav {
+.navbar1 {
   width: 100%;
   height: 48px;
   font-family: Verdana;
@@ -45,11 +45,14 @@ nav {
   width: 16px;
   height: 16px;
   margin: 8px;
+  cursor: pointer;
 }
 .social-media-icon {
   align-items: center;
   display: flex;
-  cursor: pointer;
+}
+.social-media-icon p {
+  cursor: auto;
 }
 .social-media-icon button {
   height: 26px;
@@ -58,10 +61,11 @@ nav {
   padding-right: 6px;
   margin: 4px;
   align-items: center;
-  justify-content: flex-ends;
+  cursor: pointer;
 }
 .social-media-icon a {
   margin-left: 10px;
+  cursor: pointer;
 }
 .social-media-icon #hindi {
   height: 32px;
@@ -77,4 +81,39 @@ nav {
 }
 .social-media-icon h1 {
   font-weight: 100;
+  cursor: auto;
+}
+
+.navbar2 {
+  width: 100%;
+  height: 62px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+#election-commission-logo {
+  width: 64px;
+  height: 60px;
+  margin-left: 110px;
+  margin-top: 3px;
+}
+#hindi-election {
+  margin-top: 14px;
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+#searching-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: 120px;
+  background-color: palevioletred;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
 }
